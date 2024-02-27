@@ -126,7 +126,7 @@ body {
   justify-content: flex-end;
   align-items: flex-end; 
   /* height: 100vh;  */
-  background-image: url('./images/house1.jpg'); 
+  background-image: url('./images/house1.png'); 
   background-size: cover; 
   position: relative;
   z-index: 1;
@@ -169,6 +169,7 @@ body {
 .figure .text-figure p {
   font-family: "Lexend";
   font-weight: normal;
+  font-size: 11px;
   color:rgb(136,139,151);
 }
 
@@ -1280,4 +1281,12 @@ text-decoration: none;
   bottom:0;
   right:0;
   overflow:hidden;
+}
+.pag{
+  margin-left: 49%;
+  margin-bottom: 70px;
+  margin-top: -30px;
+}
+.rectangle{
+  width:80%
 }
